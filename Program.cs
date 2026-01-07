@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Diagnostics;
 using System.Linq; // Needed for array cloning
-using BenchmarkDotNet.Attributes; // KEY FOR EXTRA MARKS
-using BenchmarkDotNet.Running;    // KEY FOR EXTRA MARKS
+using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Running;
 
 namespace GaussSolver
 {
@@ -367,5 +367,6 @@ namespace GaussSolver
         }
     }
 }
+
 
 
